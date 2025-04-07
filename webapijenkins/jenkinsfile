@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'master', url: 'https://github.com/kxnishk08/Dotnetintegration.git'
+                git branch: 'master', url: 'https://github.com/esha1401/dotnet.git'
             }
         }
 
